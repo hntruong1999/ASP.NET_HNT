@@ -1,0 +1,73 @@
+﻿@model IEnumerable<DanhMucModel>
+@{
+    ViewData["title"] = "Danh sách danh mục";
+}
+
+<h3>Danh sách danh mục</h3>
+
+<!-- NÚT THÊM DANH MỤC (BÊN TRÁI) -->
+<div class="mb-3">
+    <a asp-action="Create"
+       asp-controller="DanhMuc"
+       class="btn btn-primary">
+        <i class="anticon anticon-plus-circle m-r-5"></i>
+        Thêm danh mục
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Tên danh mục</th>
+                        <th scope="col">Mô tả danh mục</th>
+                        <th scope="col">Slug</th>
+                        <th scope="col">Trạng thái danh mục</th>
+                        <th scope="col">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@item.ID</th>
+                            <td>@item.Ten</td>
+                            <td>@item.MoTa</td>
+                            <td>@item.Slug</td>
+                            <td>
+                                @if (item.Status == 1)
+                                {
+                                    <span class="text-success">Hiển thị</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Ẩn</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Edit"
+                                   asp-controller="DanhMuc"
+                                   asp-route-id="@item.ID"
+                                   class="btn btn-primary btn-tone m-r-5">
+                                    Edit
+                                </a>
+
+                                <a asp-action="Delete"
+                                   asp-controller="DanhMuc"
+                                   asp-route-id="@item.ID"
+                                   class="btn btn-danger btn-tone">
+                                    Xóa
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>

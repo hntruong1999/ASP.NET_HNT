@@ -1,0 +1,41 @@
+﻿@model Shop_Apple_HNT.Models.ViewModels.LoginViewModel
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<div class="auth-card">
+    <h2>Đăng nhập</h2>
+
+    <form asp-action="Login" method="post">
+        <input type="hidden" asp-for="ReturnUrl" />
+
+        <div class="form-group">
+            <label>Tài khoản / Email</label>
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Mật khẩu</label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn-submit">
+            Đăng nhập
+        </button>
+
+        <div class="auth-link">
+            Chưa có tài khoản?
+            <a asp-action="Create" asp-controller="TaiKhoan">Đăng ký ngay</a>
+        </div>
+
+        <div asp-validation-summary="All" class="text-danger mt-2"></div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

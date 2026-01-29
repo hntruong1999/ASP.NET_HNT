@@ -1,0 +1,52 @@
+﻿@model IEnumerable<DatHangModel>
+@{
+    ViewData["title"] = "Danh sách đơn hàng";
+}
+<h3>Danh sách đơn hàng</h3>
+
+<div class="card">
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Mã đặt hàng</th>
+                        <th scope="col">Tên người đặt</th>
+                        <th scope="col">Ngày đặt hàng</th>
+                        <th scope="col">Trạng thái đặt hàng</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@item.MaDatHang</th>
+                            <td>@item.MaDatHang</td>
+                            <td>@item.UserName</td>
+
+                            <td>@item.NgayDat</td>
+                            
+                            <td>
+                            @if (item.Status == 1)
+                            {
+                            <span class="text text-success">Đơn hàng mới</span>
+                            }
+                            else
+                            {
+                            <span class="text text-danger">Đơn hàng thành công</span>
+                            }
+                            </td>
+                        </tr>
+
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,43 @@
+﻿@model DanhMucModel
+
+<h4>Chỉnh sửa danh mục</h4>
+<div class="col-md-9">
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label>Ten</label>
+            <input asp-for="Ten" class="form-control" />
+            <span asp-validation-for="Ten" class="text-danger" />
+        </div>
+
+
+        <div class="form-group">
+            <label>MoTa</label>
+            <textarea asp-for="MoTa" class="form-control"></textarea>
+            <span asp-validation-for="MoTa" class="text-danger" />
+        </div>
+        <div class="form-group">
+            <label>Status</label>
+            <select asp-for="Status" class="form-control">
+                <option value="1">Hiển thị</option>
+                <option value="0">Ẩn</option>
+            </select>
+            <span asp-validation-for="Status" class="text-danger" />
+        </div>
+
+
+        <div class="form-group">
+            <button class="btn btn-primary">Cập nhật</button>
+        </div>
+    </form>
+    <a asp-action="Index">Quay về tranh danh sách danh mục</a>
+
+</div>
+
+@*@section Scripts{
+    @{
+        //sử dụng ckeditor 4 để hiện thị cái thanh edit
+        await Html.RenderPartialAsync("_ValidationScriptsPartial"); //dungf chayj required trong SanPhamModel: "yeu cauf...."
+    }
+
+}*@

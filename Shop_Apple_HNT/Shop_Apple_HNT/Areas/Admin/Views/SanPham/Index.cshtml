@@ -1,0 +1,60 @@
+﻿@model IEnumerable<SanPhamModel>
+@{
+    ViewData["title"] = "Danh sách sản phẩm";
+}
+<h3>Danh sách Sản phẩm</h3>
+<!-- <a asp-action="Create" asp-controller="SanPham">Thêm sản phẩm</a> -->
+<div class="card">
+    <div class="card-body">
+        <div class="row m-b-30">
+            <div class="col-lg-8"></div>
+            <div class="col-lg-4 text-right">
+                <a asp-action="Create" asp-controller="SanPham" class="btn btn-primary">
+                    <i class="anticon anticon-plus-circle m-r-5"></i>
+                    Thêm sản phẩm
+                </a>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Tên sản phẩm</th>
+                        <th scope="col">Mô tả</th>
+                        <th scope="col">Giá bán</th>
+                        <th scope="col">Slug</th>
+                        <th scope="col">Danh mục</th>
+                        <th scope="col">Thương hiệu</th>
+                        <th scope="col">Quản lý</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@item.Id</th>
+                            <td><img src="~/media/sanphams/@item.Hinh" width="120"></td>
+                            <td>@item.Ten</td>
+                            <td>@item.MoTa</td>
+                            <td>@item.Gia</td>
+                            <td>@item.Slug</td>
+                            <td>@item.DanhMuc.Ten</td>
+                            <td>@item.Brand.Ten</td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="SanPham" asp-route-id="@item.Id" class="btn btn-primary btn-tone m-r-5">Chỉnh sửa</a>
+
+                                <a asp-action="Delete" asp-controller="SanPham" asp-route-id="@item.Id" class="btn btn-danger btn-tone m-r-5">Xóa</a>
+
+                            </td>
+                        </tr>
+
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

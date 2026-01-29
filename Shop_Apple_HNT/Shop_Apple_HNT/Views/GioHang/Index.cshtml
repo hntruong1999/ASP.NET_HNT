@@ -1,0 +1,212 @@
+﻿@using Shop_Apple_HNT.Models.ViewModels
+@model GioHangItemViewModel
+<style>
+	.cart_info table {
+		table-layout: fixed;
+		width: 100%;
+	}
+
+	.cart_info td.total {
+		white-space: nowrap;
+	}
+
+
+	/* Căn giữa toàn bộ cell */
+	.cart_info tbody td {
+		vertical-align: middle !important;
+		text-align: center;
+	}
+
+	/* Mô tả sản phẩm */
+	.cart_description h4 {
+		margin: 0;
+	}
+
+	.cart_description a {
+		font-size: 16px;
+		font-weight: 600;
+		color: #1d1d1f;
+	}
+
+	/* Giá */
+	.cart_price p {
+		margin: 0;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	/* Tổng từng sản phẩm */
+	.cart_total_price {
+		margin: 0;
+		font-size: 18px;
+		font-weight: 700;
+		color: #ff7a00;
+	}
+
+	.cart_quantity {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 6px;
+	}
+
+	.cart_quantity_input {
+		width: 42px;
+		height: 32px;
+		text-align: center;
+		border-radius: 6px;
+		border: 1px solid #ccc;
+	}
+	/* Dòng tổng tiền */
+	.cart_info tbody tr:last-child {
+		background: #fafafa;
+	}
+
+		.cart_info tbody tr:last-child td {
+			padding: 16px;
+			font-size: 16px;
+			font-weight: 600;
+			vertical-align: middle;
+		}
+
+			/* Tổng tiền bên trái */
+			.cart_info tbody tr:last-child td:first-child {
+				text-align: left;
+				color: #1d1d1f;
+			}
+
+			/* Nhóm nút bên phải */
+			.cart_info tbody tr:last-child td a {
+				margin-left: 8px;
+			}
+
+
+	/* Responsive */
+	@@media (max-width: 768px) {
+		.cart_product img {
+			max-width: 90px;
+		}
+
+		.cart_quantity {
+			flex-direction: column;
+		}
+	}
+
+</style>
+<section id="cart_items">
+	<div class="container">
+		<div class="breadcrumbs">
+			<ol class="breadcrumb">
+				<li><a asp-action="Index" asp-controller="Home">Home</a></li>
+				<li class="active">Giỏ hàng</li>
+			</ol>
+		</div>
+		<div class="table-responsive cart_info">
+			<table class="table table-condensed">
+				<thead>
+					<tr class="cart_menu">
+						<td class="image">Hình sản phẩm</td>
+						<td class="description">Mô tả</td>
+						<td class="price">Giá</td>
+						<td class="quantity">Số lượng</td>
+						<td class="total">Tổng</td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody>
+					@if (Model.GioHangItems.Count > 0)
+					{
+						foreach (var item in Model.GioHangItems)
+						{
+							<tr>
+								<td class="cart_product">
+									<img src="~/media/sanphams/@item.Hinh" style="width:70%" />
+								</td>
+
+								<td class="cart_description">
+									<h4>@item.SanPhamName</h4>
+								</td>
+
+								<td class="cart_price">
+									<p>@item.Gia.ToString("#,##0 đ")</p>
+								</td>
+
+								<td class="cart_quantity">
+									<a class="btn btn-success btn-sm"
+									   asp-action="Tang"
+									   asp-controller="GioHang"
+									   asp-route-id="@item.SanPhamId">+</a>
+
+									<input class="cart_quantity_input"
+										   type="text"
+										   value="@item.SoLuong"
+										   readonly />
+
+									<a class="btn btn-success btn-sm"
+									   asp-action="Giam"
+									   asp-controller="GioHang"
+									   asp-route-id="@item.SanPhamId">-</a>
+
+									<a class="btn btn-danger btn-sm"
+									   asp-action="Xoa"
+									   asp-controller="GioHang"
+									   asp-route-id="@item.SanPhamId">Xóa</a>
+								</td>
+
+								<td class="total">
+									<p class="cart_total_price">
+										@((item.SoLuong * item.Gia).ToString("#,##0 đ"))
+									</p>
+								</td>
+
+								<td></td>
+							</tr>
+						}
+
+						<!-- DÒNG TỔNG TIỀN -->
+						<tr>
+							<td colspan="4" style="text-align:right;font-weight:600">
+								Tổng tiền:
+							</td>
+							<td class="total">
+								<span class="cart_total_price">
+									@Model.TongTien.ToString("#,##0 đ")
+								</span>
+							</td>
+							<td></td>
+						</tr>
+
+						<!-- DÒNG NÚT -->
+						<tr>
+							<td colspan="6" style="text-align:right">
+								<a class="btn btn-danger btn-sm"
+								   asp-action="Clear"
+								   asp-controller="GioHang">
+									Xóa toàn bộ giỏ hàng
+								</a>
+
+								@if (User.Identity?.IsAuthenticated ?? false)
+								{
+									<a class="btn btn-success btn-sm"
+									   asp-action="Checkout"
+									   asp-controller="Checkout">
+										Thanh toán
+									</a>
+								}
+							</td>
+						</tr>
+					}
+					else
+					{
+						<tr>
+							<td colspan="6">
+								<h4>Giỏ hàng trống</h4>
+							</td>
+						</tr>
+					}
+				</tbody>
+
+			</table>
+		</div>
+	</div>
+</section> <!--/#cart_items-->

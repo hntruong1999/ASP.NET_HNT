@@ -1,0 +1,166 @@
+﻿<div class="left-sidebar">
+    <style>
+        .left-sidebar {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+            border: 1px solid #e5e5e5;
+            animation: sidebarFade 0.6s ease-out;
+        }
+
+        .sidebar-block {
+            margin-bottom: 36px;
+            animation: blockSlide 0.5s ease both;
+        }
+
+            .sidebar-block:nth-child(2) {
+                animation-delay: 0.1s;
+            }
+
+            .sidebar-block:nth-child(3) {
+                animation-delay: 0.2s;
+            }
+
+        /* ===== Sidebar title ===== */
+        .sidebar-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #d1d1d6;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+        }
+
+            .sidebar-title::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -1px;
+                width: 42px;
+                height: 2px;
+                background: #1d1d1f;
+            }
+
+        /* ===== LIST ===== */
+        .category-products ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .category-products ul li {
+                margin-bottom: 12px;
+            }
+
+                /* ===== ITEM ===== */
+                .category-products ul li a {
+                    display: block;
+                    padding: 12px 18px;
+                    background: #ffffff;
+                    border-radius: 8px;
+                    color: #6e6e73;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    border: 1px solid transparent;
+                    position: relative;
+                    /* Shadow nền rất nhẹ */
+                    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 10px rgba(0,0,0,0.05);
+                    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.25s ease, border-color 0.25s ease;
+                }
+
+                    /* Thanh nhấn bên trái */
+                    .category-products ul li a::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        width: 3px;
+                        height: 0;
+                        background: #1d1d1f;
+                        border-radius: 2px;
+                        transform: translateY(-50%);
+                        transition: height 0.25s ease;
+                    }
+
+                    /* ===== HOVER – NÂNG KHỐI ===== */
+                    .category-products ul li a:hover {
+                        color: #1d1d1f;
+                        border-color: #e5e5e7;
+                        /* Shadow nhiều lớp → có chiều sâu */
+                        box-shadow: 0 6px 12px rgba(0,0,0,0.08), 0 16px 32px rgba(0,0,0,0.12);
+                        /* Nâng + trượt nhẹ */
+                        transform: translate3d(6px, -2px, 0);
+                    }
+
+                        .category-products ul li a:hover::before {
+                            height: 70%;
+                        }
+
+                    /* ===== ACTIVE (đang chọn) ===== */
+                    .category-products ul li a.active {
+                        color: #1d1d1f;
+                        font-weight: 600;
+                        border-color: #1d1d1f;
+                        box-shadow: 0 8px 16px rgba(0,0,0,0.12), 0 20px 40px rgba(0,0,0,0.15);
+                        transform: translate3d(4px, -1px, 0);
+                    }
+
+                        .category-products ul li a.active::before {
+                            height: 80%;
+                        }
+
+        /* Mobile */
+        @@media (max-width: 768px) {
+            .left-sidebar {
+                margin-bottom: 30px;
+                padding: 18px;
+            }
+        }
+
+        /* Animations */
+        @@keyframes sidebarFade {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @@keyframes blockSlide {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+
+    <!-- DANH MỤC -->
+    <div class="sidebar-block">
+        <div class="sidebar-title">Danh mục sản phẩm</div>
+        <div class="panel-group category-products">
+            <vc:Categories></vc:Categories>
+        </div>
+    </div>
+
+    <!-- THƯƠNG HIỆU -->
+    <div class="sidebar-block">
+        <div class="sidebar-title">Thương hiệu</div>
+        <div class="panel-group category-products">
+            <vc:Brands></vc:Brands>
+        </div>
+    </div>
+</div>

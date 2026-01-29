@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title> @ViewData["title"] - Admin</title>
+	<link href="~/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/css/font-awesome.min.css" rel="stylesheet">
+	<link href="~/css/prettyPhoto.css" rel="stylesheet">
+	<link href="~/css/price-range.css" rel="stylesheet">
+	<link href="~/css/animate.css" rel="stylesheet">
+	<link href="~/css/main.css" rel="stylesheet">
+	<link href="~/css/responsive.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="images/ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link href="~/css/admin.css" rel="stylesheet" />
+    <style>
+        body.admin-body {
+            background: #f4f6f9;
+            padding-top: 50px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: #222d32;
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+
+            .sidebar a {
+                color: #b8c7ce;
+                font-weight: 500;
+            }
+
+                .sidebar li.active a,
+                .sidebar a:hover {
+                    background: #1e282c !important;
+                    color: #fff;
+                }
+
+        /* Content */
+        .content-area {
+            padding: 20px;
+        }
+
+        .content-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,.05);
+        }
+
+        /* Navbar */
+        .navbar-inverse {
+            background: #3c8dbc;
+            border: none;
+        }
+
+            .navbar-inverse .navbar-brand,
+            .navbar-inverse .navbar-nav > li > a {
+                color: #fff;
+            }
+    </style>
+</head><!--/head-->
+
+<body class="admin-body">
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    <strong>HNT</strong> Admin
+                </a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user"></i> Xin chào Admin nhé 
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="TaiKhoan" asp-action="DangXuat">
+                        <i class="fa fa-sign-out"></i> Đăng xuất
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN WRAPPER -->
+    <div class="container-fluid admin-wrapper">
+
+        <!-- SIDEBAR -->
+        <div class="col-sm-2 sidebar">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active">
+                    <a asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-dashboard"></i> Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="SanPham" asp-action="Index">
+                        <i class="fa fa-cube"></i> Sản phẩm
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="DanhMuc" asp-action="Index">
+                        <i class="fa fa-list"></i> Danh mục
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Brand" asp-action="Index">
+                        <i class="fa fa-tags"></i> Thương hiệu
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="DatHang" asp-action="Index">
+                        <i class="fa fa-shopping-cart"></i> Đơn hàng
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="col-sm-10 content-area">
+            @Html.Partial("_NotificationPartial")
+
+            <div class="content-box">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+
+
+	<script src="~/js/jquery.js"></script>
+	<script src="~/js/bootstrap.min.js"></script>
+	<script src="~/js/jquery.scrollUp.min.js"></script>
+	<script src="~/js/price-range.js"></script>
+	<script src="~/js/jquery.prettyPhoto.js"></script>
+	<script src="~/js/main.js"></script>
+	<script src="~/Data/js/site.js"></script>
+
+
+</html>

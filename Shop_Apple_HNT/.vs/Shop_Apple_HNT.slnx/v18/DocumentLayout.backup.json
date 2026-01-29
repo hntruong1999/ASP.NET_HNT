@@ -1,0 +1,1584 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\repository\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\repository\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\controllers\\contaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\controllers\\contaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\dathangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\dathangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\migrations\\20260119063816_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\migrations\\20260119063816_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\shop_apple_hnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\shop_apple_hnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\js\\html5shiv.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\js\\html5shiv.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\js\\gmaps.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\js\\gmaps.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\js\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\js\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_productdetailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_productdetailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\sanpham\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\sanpham\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\taikhoan\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\taikhoan\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\taikhoan\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\taikhoan\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\taikhoan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\taikhoan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_sidebarpartal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_sidebarpartal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\contax\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\contax\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\components\\brands\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\components\\brands\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063413_FixFKSanPhamChiTietDonHang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260119063413_FixFKSanPhamChiTietDonHang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063341_FixFKSanPhamChiTietDonHang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260119063341_FixFKSanPhamChiTietDonHang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\chitietdonhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\chitietdonhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260116040008_FixRequiredField12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260116040008_FixRequiredField12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\giohangitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\giohangitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\danhmucmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\danhmucmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\appusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\appusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\sanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\sanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260116025941_FixRequiredFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260116025941_FixRequiredFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\models\\viewmodels\\giohangitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\models\\viewmodels\\giohangitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115080057_FirtsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260115080057_FirtsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115075937_FirtsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260115075937_FirtsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\controllers\\dathangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\controllers\\dathangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115074821_FirtsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shop_Apple_HNT\\Migrations\\20260115074821_FirtsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\css\\slick.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\css\\slick.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\css\\slick-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\css\\slick-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\css\\templatemo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\css\\templatemo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\wwwroot\\css\\animate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\wwwroot\\css\\animate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\home\\errorsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\home\\errorsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\danhmuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\repository\\sessionextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\repository\\sessionextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\repository\\validation\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\repository\\validation\\fileextensionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\repository\\components\\categoriesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\repository\\components\\categoriesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\repository\\components\\brandsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\repository\\components\\brandsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KIET DEP TRAI\\.nuget\\packages\\castle.core\\5.1.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\sanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\sanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\dathang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\dathang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\danhmuc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\danhmuc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|c:\\users\\kiet dep trai\\desktop\\asp.net\\shop_apple_hnt\\shop_apple_hnt\\areas\\admin\\views\\danhmuc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB99F65-A9F0-5611-DD18-8D197A520FA9}|Shop_Apple_HNT\\Shop_Apple_HNT.csproj|solutionrelative:shop_apple_hnt\\areas\\admin\\views\\danhmuc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:48:38.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaiKhoanController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\TaiKhoanController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\TaiKhoanController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\TaiKhoanController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:48:49.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:46:40.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:47:14.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\SeedData.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Repository\\SeedData.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\SeedData.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Repository\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:51:35.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:48:09.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\GioHangController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:47:57.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DanhMucController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\DanhMucController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\DanhMucController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\DanhMucController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\DanhMucController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:47:44.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContaxController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\ContaxController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Controllers\\ContaxController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Controllers\\ContaxController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Controllers\\ContaxController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:47:27.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatHangModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\DatHangModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\DatHangModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\DatHangModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\DatHangModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:50:12.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260119063816_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063816_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260119063816_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063816_InitialCreate.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260119063816_InitialCreate.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwF0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:38:16.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SanPhamModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\SanPhamModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\SanPhamModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\SanPhamModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\SanPhamModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:50:23.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\UserModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T02:28:24.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Shop_Apple_HNT.csproj",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Shop_Apple_HNT.csproj",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Shop_Apple_HNT.csproj",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Shop_Apple_HNT.csproj",
+              "RelativeToolTip": "Shop_Apple_HNT\\Shop_Apple_HNT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-13T04:33:02.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\appsettings.json",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\appsettings.json",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\appsettings.json",
+              "RelativeToolTip": "Shop_Apple_HNT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-13T05:41:32.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:08.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\jquery.js",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\js\\jquery.js",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\jquery.js",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\js\\jquery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-21T02:48:10.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "bootstrap.min.js",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\bootstrap.min.js",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\js\\bootstrap.min.js",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\bootstrap.min.js",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\js\\bootstrap.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-21T02:47:49.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "gmaps.js",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\gmaps.js",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\js\\gmaps.js",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\gmaps.js",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\js\\gmaps.js",
+              "ViewState": "AgIAAD0AAAAAAAAAAGBnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-21T02:47:52.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "html5shiv.js",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\html5shiv.js",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\js\\html5shiv.js",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\js\\html5shiv.js",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\js\\html5shiv.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-21T02:48:02.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:19.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:17.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T08:08:39.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:12.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ProductDetailPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_ProductDetailPartial.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_ProductDetailPartial.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_ProductDetailPartial.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_ProductDetailPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T07:34:44.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:08.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAOBvwKEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T09:50:44.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Program.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Program.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Program.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:53:37.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:44:16.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:43:47.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:24.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:32.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAEBlwCcAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:15.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\TaiKhoan\\Create.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\TaiKhoan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\TaiKhoan\\Create.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\TaiKhoan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:20.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\TaiKhoan\\Login.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\TaiKhoan\\Login.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\TaiKhoan\\Login.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\TaiKhoan\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:22.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:53.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ChiTietSanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\SanPham\\ChiTietSanPham.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\SanPham\\ChiTietSanPham.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\SanPham\\ChiTietSanPham.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\SanPham\\ChiTietSanPham.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwBQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:51.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Contax\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Contax\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Contax\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Contax\\Index.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAmwN8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:20.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ProductLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_ProductLayout.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_ProductLayout.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_ProductLayout.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_ProductLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T07:44:05.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "QuenMatKhau.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:23.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\css\\main.css",
+              "ViewState": "AgIAACAAAAAAAAAAACBjwDgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T06:27:02.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:16.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_SidebarPartal.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_SidebarPartal.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_SidebarPartal.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_SidebarPartal.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_SidebarPartal.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:14.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:18.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:46.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\GioHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\GioHang\\Index.cshtml",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAowM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:26.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:05.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\Components\\Brands\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:02.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\CheckOut\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\CheckOut\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\CheckOut\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\CheckOut\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:17.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-19T09:04:03.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:35.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:53:24.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20260116040008_FixRequiredField12.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260116040008_FixRequiredField12.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260116040008_FixRequiredField12.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260116040008_FixRequiredField12.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260116040008_FixRequiredField12.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T04:00:09.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ChiTietDonHangModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ChiTietDonHangModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\ChiTietDonHangModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ChiTietDonHangModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\ChiTietDonHangModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:49:58.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260119063341_FixFKSanPhamChiTietDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063341_FixFKSanPhamChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260119063341_FixFKSanPhamChiTietDonHang.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063341_FixFKSanPhamChiTietDonHang.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260119063341_FixFKSanPhamChiTietDonHang.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:33:41.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260119063413_FixFKSanPhamChiTietDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063413_FixFKSanPhamChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260119063413_FixFKSanPhamChiTietDonHang.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260119063413_FixFKSanPhamChiTietDonHang.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260119063413_FixFKSanPhamChiTietDonHang.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:34:13.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GioHangItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\GioHangItemModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\GioHangItemModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\GioHangItemModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\GioHangItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:50:19.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:50:15.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DanhMucModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\DanhMucModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\DanhMucModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\DanhMucModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\DanhMucModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T02:26:38.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BrandModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\BrandModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\BrandModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\BrandModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\BrandModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:49:54.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AppUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\AppUserModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\AppUserModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\AppUserModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\AppUserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:49:47.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:44:55.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Create.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Create.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:30.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20260116025941_FixRequiredFields.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260116025941_FixRequiredFields.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260116025941_FixRequiredFields.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260116025941_FixRequiredFields.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260116025941_FixRequiredFields.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T02:59:41.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "GioHangItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ViewModels\\GioHangItemViewModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\ViewModels\\GioHangItemViewModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ViewModels\\GioHangItemViewModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\ViewModels\\GioHangItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:49:24.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:49:42.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20260115080057_FirtsMigration.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115080057_FirtsMigration.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260115080057_FirtsMigration.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115080057_FirtsMigration.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260115080057_FirtsMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T08:00:57.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20260115075937_FirtsMigration.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115075937_FirtsMigration.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260115075937_FirtsMigration.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115075937_FirtsMigration.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260115075937_FirtsMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T07:59:38.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DatHangController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DatHangController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DatHangController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DatHangController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DatHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:44:45.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DanhMucController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DanhMucController.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DanhMucController.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DanhMucController.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Controllers\\DanhMucController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:44:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20260115074821_FirtsMigration.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115074821_FirtsMigration.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Migrations\\20260115074821_FirtsMigration.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Migrations\\20260115074821_FirtsMigration.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Migrations\\20260115074821_FirtsMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T07:48:22.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "slick-theme.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\slick-theme.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\css\\slick-theme.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\slick-theme.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\css\\slick-theme.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T06:27:58.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "slick.min.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\slick.min.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\css\\slick.min.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\slick.min.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\css\\slick.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T06:28:00.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T06:28:02.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "templatemo.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\templatemo.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\css\\templatemo.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\templatemo.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\css\\templatemo.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T06:27:53.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "animate.css",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\animate.css",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\wwwroot\\css\\animate.css",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\wwwroot\\css\\animate.css",
+              "RelativeToolTip": "Shop_Apple_HNT\\wwwroot\\css\\animate.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-15T06:27:46.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:48.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Repository\\DataContext.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\DataContext.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Repository\\DataContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:51:25.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ErrorSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Home\\ErrorSearch.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Home\\ErrorSearch.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Home\\ErrorSearch.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Home\\ErrorSearch.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:36:48.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\DanhMuc\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\DanhMuc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\DanhMuc\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\DanhMuc\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:23.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAEBlwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:52:14.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "SessionExtention.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\SessionExtention.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Repository\\SessionExtention.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\SessionExtention.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Repository\\SessionExtention.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:51:42.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "FileExtensionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Repository\\Validation\\FileExtensionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:51:19.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CategoriesViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\Components\\CategoriesViewComponent.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Repository\\Components\\CategoriesViewComponent.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\Components\\CategoriesViewComponent.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Repository\\Components\\CategoriesViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:51:13.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "BrandsViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\Components\\BrandsViewComponent.cs",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Repository\\Components\\BrandsViewComponent.cs",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Repository\\Components\\BrandsViewComponent.cs",
+              "RelativeToolTip": "Shop_Apple_HNT\\Repository\\Components\\BrandsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:50:59.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:43.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:34.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Edit.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\SanPham\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:31.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DatHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DatHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DatHang\\Index.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DatHang\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:27.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Edit.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:23.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Create.cshtml",
+              "RelativeDocumentMoniker": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Create.cshtml",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\Desktop\\ASP.NET\\Shop_Apple_HNT\\Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Create.cshtml",
+              "RelativeToolTip": "Shop_Apple_HNT\\Areas\\Admin\\Views\\DanhMuc\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T04:45:22.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\KIET DEP TRAI\\.nuget\\packages\\castle.core\\5.1.1\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\castle.core\\5.1.1\\readme.txt",
+              "ToolTip": "C:\\Users\\KIET DEP TRAI\\.nuget\\packages\\castle.core\\5.1.1\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\castle.core\\5.1.1\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-13T04:38:50.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

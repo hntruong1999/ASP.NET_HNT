@@ -1,0 +1,495 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Trang chủ</title>
+	<link href="~/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/css/font-awesome.min.css" rel="stylesheet">
+	<link href="~/css/prettyPhoto.css" rel="stylesheet">
+	<link href="~/css/price-range.css" rel="stylesheet">
+	<link href="~/css/animate.css" rel="stylesheet">
+	<link href="~/css/main.css" rel="stylesheet">
+	<link href="~/css/responsive.css" rel="stylesheet">
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="~/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	<style>
+		#products {
+			padding: 60px 0;
+			background: #ffffff;
+		}
+
+			#products h2 {
+				font-size: 32px;
+				font-weight: 600;
+				margin-bottom: 50px;
+				text-align: center;
+			}
+
+		.service-row {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+
+		.service-item {
+			padding: 20px;
+		}
+
+			.service-item img {
+				max-height: 140px;
+				margin-bottom: 20px;
+			}
+
+			.service-item h3 {
+				font-size: 20px;
+				font-weight: 600;
+				margin-bottom: 10px;
+			}
+
+			.service-item p {
+				font-size: 15px;
+				color: #666;
+				line-height: 1.6;
+			}
+
+		/* VIDEO */
+		.video-wrapper {
+			display: flex;
+			justify-content: center;
+		}
+
+			.video-wrapper iframe {
+				width: 80%;
+				max-width: 1100px;
+				aspect-ratio: 16 / 9;
+				border-radius: 12px;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+				border: none;
+			}
+
+		@@media (max-width: 768px) {
+			.service-row {
+				flex-direction: column;
+			}
+
+			.video-wrapper iframe {
+				width: 95%;
+			}
+		}
+
+		.main-header {
+			background: #ffffff;
+			border-bottom: 1px solid #eee;
+			padding: 15px 0;
+		}
+
+		.logo img {
+			height: 65px;
+		}
+
+		.header-nav {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.menu-left ul,
+		.menu-right ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+
+			.menu-left ul li a,
+			.menu-right ul li a {
+				padding: 10px 15px;
+				font-size: 15px;
+				font-weight: 600;
+				color: #333;
+				text-decoration: none;
+			}
+
+				.menu-left ul li a:hover,
+				.menu-left ul li a.active {
+					color: #ff9800;
+				}
+
+				.menu-right ul li a i {
+					margin-right: 5px;
+				}
+
+		@@media (max-width: 768px) {
+			.header-nav {
+				flex-direction: column;
+				text-align: center;
+			}
+
+			.menu-left ul,
+			.menu-right ul {
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+		}
+
+		#footer {
+			background: #1c1c1c;
+			color: #ccc;
+			padding-top: 50px;
+			font-size: 14px;
+		}
+
+			#footer h4 {
+				color: #fff;
+				margin-bottom: 20px;
+				font-weight: 600;
+			}
+
+		.footer-about p {
+			line-height: 1.7;
+		}
+
+		.footer-about span {
+			color: #2f80ff;
+		}
+
+		.footer-logo {
+			max-width: 140px;
+			margin-bottom: 15px;
+		}
+
+		.footer-list {
+			list-style: none;
+			padding: 0;
+		}
+
+			.footer-list li {
+				margin-bottom: 10px;
+			}
+
+				.footer-list li a {
+					color: #ccc;
+					text-decoration: none;
+				}
+
+					.footer-list li a:hover {
+						color: #2f80ff;
+					}
+
+		.footer-social a {
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			line-height: 36px;
+			border: 1px solid #444;
+			border-radius: 50%;
+			text-align: center;
+			margin-right: 10px;
+			color: #fff;
+		}
+
+			.footer-social a:hover {
+				background: #2f80ff;
+				border-color: #2f80ff;
+			}
+
+		.footer-bottom {
+			border-top: 1px solid #333;
+			margin-top: 40px;
+			padding: 20px 0;
+			text-align: center;
+			color: #777;
+		}
+
+		.footer-brand {
+			margin-bottom: 20px;
+		}
+
+		.brand-text {
+			font-size: 56px;
+			font-weight: 800;
+			letter-spacing: 6px;
+			text-transform: uppercase;
+			/* Gradient sang trọng */
+			background: linear-gradient(135deg, #ffffff, #9ca3af);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			/* Hiệu ứng phát sáng nhẹ */
+			text-shadow: 0 0 10px rgba(255, 255, 255, 0.15), 0 0 30px rgba(255, 255, 255, 0.05);
+			cursor: default;
+			transition: all 0.4s ease;
+		}
+
+	</style>
+
+</head> <!-- footer-->
+
+<body>
+	<header>
+	<!-- HEADER MIDDLE -->
+	<div class="header-middle">
+		<div class="container">
+			<div class="row align-items-center">
+
+				<div class="col-sm-4">
+					<div class="logo">
+						<a asp-action="Index" asp-controller="Home">
+								<div>
+									<span class="brand-text">HNT</span>
+								</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-8">
+					<div class="shop-menu pull-right">
+						<ul class="nav navbar-nav">
+							<li>
+								<a asp-action="Login" asp-controller="TaiKhoan">
+									<i class="fa fa-user"></i> Tài khoản
+								</a>
+							</li>
+
+							@if (User.Identity?.IsAuthenticated ?? false)
+							{
+								<li>
+									<a asp-action="Index" asp-controller="GioHang">
+										<i class="fa fa-shopping-cart"></i> Giỏ hàng
+									</a>
+								</li>
+								<li>
+									<a asp-action="LogOut" asp-controller="TaiKhoan">
+										<i class="fa fa-sign-out"></i>
+										Xin chào @User.Identity.Name, Đăng xuất
+									</a>
+								</li>
+							}
+							else
+							{
+								<li>
+									<a asp-action="Login" asp-controller="TaiKhoan">
+										<i class="fa fa-lock"></i> Đăng nhập
+									</a>
+								</li>
+							}
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- HEADER BOTTOM -->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+					<div class="mainmenu">
+						<ul class="nav navbar-nav">
+							<li>
+								<a asp-controller="Home" asp-action="Index" class="active">Home</a>
+							</li>
+							<li>
+								<a asp-action="Index" asp-controller="Contax">Thông tin liên hệ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</header>
+
+	<section id="slider">
+		<!--slider-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-sm-11">
+									<img src="./images/home/slide1.jpg" width="100%"/>
+								</div>
+								
+							</div>
+							<div class="item">
+								<div class="col-sm-11">
+									<img src="./images/home/slide2.jpg" width="100%" />
+								</div>
+								
+							</div>
+
+						</div>
+
+						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section><!--/slider-->
+	<section id="products">
+		<div class="container">
+
+			@Html.Partial("_NotificationPartial")
+			@RenderBody()
+
+			<h2>Cam kết dịch vụ</h2>
+
+			<div class="row service-row">
+
+				<div class="col-sm-4 service-item">
+					<img src="https://th.bing.com/th/id/OIP.-Mc5g6ov-4bzzOH9uqXyfgHaGm?pid=ImgDet&w=184&h=163&c=7&dpr=1.3">
+					<h3>Miễn phí vận chuyển</h3>
+					<p>Vận chuyển nhanh trong vòng 3 ngày kể từ ngày đặt hàng.</p>
+				</div>
+
+				<div class="col-sm-4 service-item">
+					<img src="https://th.bing.com/th/id/OIP.JaT6WQtHJgM9m9vpxZmgNwHaDf?w=325&h=164&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+					<h3>Thanh toán nhanh</h3>
+					<p>Đảm bảo thanh toán chính xác, an toàn cho khách hàng.</p>
+				</div>
+
+				<div class="col-sm-4 service-item">
+					<img src="./images/home/BAOMAT.png">
+					<h3>Bảo mật thông tin</h3>
+					<p>Thông tin khách hàng được bảo mật 100%.</p>
+				</div>
+
+			</div>
+
+			<div class="video-wrapper">
+				<iframe src="https://www.youtube.com/embed/lzpQbgNM4t0?mute=1"
+						title="iPhone 16 Pro | Điều Khiển Camera | Apple"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen>
+				</iframe>
+			</div>
+
+		</div>
+	</section>
+
+
+	<footer id="footer">
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+
+					<!-- CỘT 1: LOGO + MÔ TẢ -->
+					<div class="col-sm-4">
+						<div class="footer-about">
+							<div class="footer-brand">
+								<span class="brand-text">HNT</span>
+							</div>
+
+
+							<p>
+								Năm 2020, HNT trở thành đại lý ủy quyền của Apple.
+								Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn Apple Mono Store
+								nhằm mang đến trải nghiệm tốt nhất cho người dùng Việt Nam.
+							</p>
+
+							<p><strong>Hotline mua hàng:</strong> <span>1900.6626</span></p>
+							<p><strong>Hotline bảo hành:</strong> <span>1900.8036</span></p>
+							<p><strong>Bán hàng doanh nghiệp:</strong> <span>0822.688.668</span></p>
+
+							<div class="footer-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-comments"></i></a>
+								<a href="#"><i class="fa fa-youtube"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- CỘT 2: THÔNG TIN -->
+					<div class="col-sm-2">
+						<h4>Thông tin</h4>
+						<ul class="footer-list">
+							<li><a href="#">Newsfeed</a></li>
+							<li><a href="#">Giới thiệu</a></li>
+							<li><a href="#">Check IMEI</a></li>
+							<li><a href="#">Phương thức thanh toán</a></li>
+							<li><a href="#">Bảo hành & sửa chữa</a></li>
+						</ul>
+					</div>
+
+					<!-- CỘT 3: CHÍNH SÁCH -->
+					<div class="col-sm-2">
+						<h4>Chính sách</h4>
+						<ul class="footer-list">
+							<li><a href="#">Thu cũ đổi mới</a></li>
+							<li><a href="#">Giao hàng</a></li>
+							<li><a href="#">Đổi trả</a></li>
+							<li><a href="#">Bảo hành</a></li>
+							<li><a href="#">Bảo mật thông tin</a></li>
+						</ul>
+					</div>
+
+					<!-- CỘT 4: ĐỊA CHỈ & LIÊN HỆ -->
+					<div class="col-sm-4">
+						<h4>Địa chỉ & Liên hệ</h4>
+						<ul class="footer-list">
+							<li>Tài khoản của tôi</li>
+							<li>Đơn đặt hàng</li>
+							<li>Tìm Store trên Google Map</li>
+							<li>Mua hàng: 1900.6626</li>
+							<li>Chi nhánh Hà Nội & TP.HCM</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- COPYRIGHT -->
+		<div class="footer-bottom">
+			<div class="container">
+				<p>
+					© 2026 Công ty Cổ Phần Nhật Trường Việt Nam – GPĐKKD: Không biết
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<script src="~/js/jquery.js"></script>
+	<script src="~/js/bootstrap.min.js"></script>
+	<script src="~/js/jquery.scrollUp.min.js"></script>
+	<script src="~/js/price-range.js"></script>
+	<script src="~/js/jquery.prettyPhoto.js"></script>
+	<script src="~/js/main.js"></script>
+
+	@await RenderSectionAsync("Scripts",required:false)
+</body>
+</html>

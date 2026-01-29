@@ -1,0 +1,73 @@
+﻿@model IEnumerable<BrandModel>
+@{
+    ViewData["title"] = "Danh sách thương hiệu";
+}
+
+<h3>Danh sách thương hiệu</h3>
+
+<!-- NÚT THÊM THƯƠNG HIỆU (BÊN TRÁI) -->
+<div class="col-lg-4 mb-3">
+    <a asp-action="Create"
+       asp-controller="Brand"
+       class="btn btn-primary">
+        <i class="anticon anticon-plus-circle m-r-5"></i>
+        Thêm thương hiệu
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Tên thương hiệu</th>
+                        <th scope="col">Mô tả thương hiệu</th>
+                        <th scope="col">Slug</th>
+                        <th scope="col">Trạng thái thương hiệu</th>
+                        <th scope="col">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@item.Id</th>
+                            <td>@item.Ten</td>
+                            <td>@item.Mota</td>
+                            <td>@item.Slug</td>
+                            <td>
+                                @if (item.Status == 1)
+                                {
+                                    <span class="text-success">Hiển thị</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Ẩn</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Edit"
+                                   asp-controller="Brand"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-primary btn-tone m-r-5">
+                                    Edit
+                                </a>
+
+                                <a asp-action="Delete"
+                                   asp-controller="Brand"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-danger btn-tone">
+                                    Xóa
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin liên hệ</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #f5f5f7;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+        }
+
+        /* ================= CONTAINER ================= */
+        .container1 {
+            display: flex;
+            justify-content: center;
+            padding: 40px 15px;
+        }
+
+        .contact-info1 {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            padding: 32px;
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+            /* Animation load */
+            opacity: 0;
+            animation: fadeUp 0.8s ease-out forwards;
+        }
+
+            .contact-info1:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+                transition: all .35s ease;
+            }
+
+            /* ================= TEXT ================= */
+            .contact-info1 h1 {
+                margin-bottom: 20px;
+                font-size: 28px;
+                color: #1d1d1f;
+                opacity: 0;
+                animation: fadeUp 0.6s ease forwards;
+            }
+
+            .contact-info1 p {
+                margin: 10px 0;
+                color: #515154;
+                font-size: 15px;
+                line-height: 1.6;
+                opacity: 0;
+                animation: fadeUp 0.7s ease forwards;
+            }
+
+                .contact-info1 p:nth-child(2) {
+                    animation-delay: .1s;
+                }
+
+                .contact-info1 p:nth-child(3) {
+                    animation-delay: .2s;
+                }
+
+                .contact-info1 p:nth-child(4) {
+                    animation-delay: .3s;
+                }
+
+                .contact-info1 p:nth-child(5) {
+                    animation-delay: .4s;
+                }
+
+                .contact-info1 p:nth-child(6) {
+                    animation-delay: .5s;
+                }
+
+        /* ================= STORE INFO ================= */
+        .store-info {
+            margin-top: 28px;
+            opacity: 0;
+            animation: fadeUp 0.7s ease forwards;
+            animation-delay: .6s;
+        }
+
+            .store-info h3 {
+                margin-bottom: 10px;
+                color: #1d1d1f;
+                font-size: 18px;
+            }
+
+            .store-info p {
+                margin: 6px 0;
+            }
+
+        /* ================= MAP ================= */
+        .map {
+            margin-top: 28px;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+            opacity: 0;
+            animation: fadeUp 0.7s ease forwards;
+            animation-delay: .8s;
+        }
+
+            .map iframe {
+                width: 100%;
+                height: 320px;
+                border: none;
+                transition: transform .4s ease;
+            }
+
+            .map:hover iframe {
+                transform: scale(1.02);
+            }
+
+        /* ================= FLOATING BUTTONS ================= */
+        .floating-buttons {
+            position: fixed;
+            right: 20px;
+            bottom: 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            z-index: 999;
+        }
+
+            .floating-buttons a {
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+                animation: float 2.2s ease-in-out infinite;
+            }
+
+                .floating-buttons a:nth-child(2) {
+                    animation-delay: .25s;
+                }
+
+            .floating-buttons img {
+                width: 30px;
+                height: 30px;
+            }
+
+        .messenger {
+            background: #0084ff;
+        }
+
+        .zalo {
+            background: #0068ff;
+        }
+
+        /* ================= ANIMATIONS ================= */
+        @@keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @@keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        @@media (max-width: 600px) {
+            iframe {
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="contact-info1">
+            <h1>Thông tin liên hệ</h1>
+
+            <p><strong>Tên cửa hàng:</strong> Apple HNT Store</p>
+            <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+            <p><strong>Email:</strong> support@applehnt.vn</p>
+            <p><strong>Hotline:</strong> 0123 456 789</p>
+            <p><strong>Website:</strong> www.applehnt.vn</p>
+
+            <div class="store-info">
+                <h3>Giờ mở cửa</h3>
+                <p>Thứ 2 – Chủ nhật: 08:00 – 21:00</p>
+            </div>
+
+            <div class="store-info">
+                <h3>Dịch vụ hỗ trợ</h3>
+                <p>• Bán lẻ sản phẩm Apple chính hãng</p>
+                <p>• Sửa chữa – bảo hành – nâng cấp</p>
+                <p>• Trả góp 0%</p>
+                <p>• Giao hàng toàn quốc</p>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps?q=Ho%20Chi%20Minh&output=embed"
+                        loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Messenger & Zalo -->
+    <div class="floating-buttons">
+        <a class="messenger" href="https://m.me/yourpage" target="_blank">
+            <img src="~/images/mess.jpg">
+        </a>
+
+        <a class="zalo" href="https://zalo.me/0123456789" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg">
+        </a>
+    </div>
+
+</body>
+</html>

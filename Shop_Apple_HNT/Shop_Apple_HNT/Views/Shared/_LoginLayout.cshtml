@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Tài khoản</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        /* ===== BACKGROUND ===== */
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('/images/login-bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        /* ===== CARD ===== */
+        .auth-card {
+            position: relative; /* FIX LỖI GLOW */
+            width: 420px;
+            background: #fff;
+            padding: 35px 40px;
+            border-radius: 18px;
+            box-shadow: 0 30px 70px rgba(0,0,0,.45);
+            opacity: 0;
+            transform: translateY(60px) scale(.92);
+            animation: fadeSlideIn .9s cubic-bezier(.4,0,.2,1) forwards;
+        }
+
+            /* glow border */
+            .auth-card::before {
+                content: "";
+                position: absolute;
+                inset: -6px;
+                background: linear-gradient(120deg,#6366f1,#22d3ee,#6366f1);
+                z-index: -1;
+                filter: blur(30px);
+                opacity: .45;
+                border-radius: 22px;
+            }
+
+            .auth-card h2 {
+                text-align: center;
+                margin-bottom: 25px;
+                font-weight: 700;
+            }
+
+        /* ===== INPUT ===== */
+        .form-control {
+            height: 44px;
+            border-radius: 10px;
+            transition: .25s;
+        }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 4px rgba(99,102,241,.3);
+                transform: translateY(-2px);
+            }
+
+        /* ===== BUTTON ===== */
+        .btn-submit {
+            width: 100%;
+            height: 45px;
+            background: linear-gradient(135deg, #4f46e5, #6366f1);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-weight: 600;
+            transition: .3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .btn-submit:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 14px 30px rgba(79,70,229,.45);
+            }
+
+            .btn-submit:active {
+                transform: scale(.96);
+            }
+
+            /* ripple */
+            .btn-submit::after {
+                content: "";
+                position: absolute;
+                width: 140%;
+                height: 140%;
+                top: 50%;
+                left: 50%;
+                background: rgba(255,255,255,.35);
+                transform: translate(-50%,-50%) scale(0);
+                border-radius: 50%;
+                transition: .6s;
+            }
+
+            .btn-submit:active::after {
+                transform: translate(-50%,-50%) scale(1);
+                opacity: 0;
+            }
+
+        /* ===== ANIMATIONS ===== */
+        @@keyframes fadeSlideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @@keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+
+    @RenderSection("Styles", false)
+</head>
+<body>
+
+    @RenderBody()
+
+    @RenderSection("Scripts", false)
+</body>
+</html>
